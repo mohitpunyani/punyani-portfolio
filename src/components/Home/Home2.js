@@ -1,11 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import avatar1 from "../../Assets/avatar1.jpeg";
+import sendly_1 from "../../Assets/sendly_1.jpg"
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -14,69 +10,55 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME <span className="purple"> INTRODUCE </span> to sendly
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            
+              This is a dapp using  <b className="purple">
+                  Blockhain technology
+                </b> 
+              provides you secure, safe, trusted and reliable transactions.
+            
               <br />
-              <br />I am fluent in languages like
+              <br />Blockchain
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> transactions {":"}</b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              can be tracked and verified in a transparent manner &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas where i am working are {""}
+                <b className="purple">and most importantly also reducing the risk of fraud </b> and
+                other financial problems {""}
                 <b className="purple">
-                  Blockchain and AI
+                   through our website
                 </b>
               </i>
               <br />
               <br />
-              I updating myself  in this digital world, and learning new technologies and try to
-              develop something that makes me feel good and happy
+            
+              Through our website users can safe their   <b className="purple">
+                    huge time 
+                </b> and do payments securely without
+              going to any place
          
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={avatar1} className="img-fluid" alt="avatar" />
+              <img src={sendly_1} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
+            <p style={{fontSize : "2.6em"}}>
+            Always <span className="purple">Upgrading</span>{" "}
+            and
+               <span className="purple"> Rennovating </span>
             </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/mohitpunyani"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-            
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/mohit-punyani-44ab21224/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-             
-            </ul>
+           
+         
           </Col>
         </Row>
       </Container>
